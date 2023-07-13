@@ -5,3 +5,13 @@
 body{
     margin: 0;
 }
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100vh;
+}
+.box{
+    border: 1px red solid;
+    width: 6.25%;
+}
